@@ -10,6 +10,10 @@
 		34C469411FBC765E00D55595 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C469401FBC765E00D55595 /* AppDelegate.swift */; };
 		34C469481FBC765E00D55595 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 34C469471FBC765E00D55595 /* Assets.xcassets */; };
 		34C469561FBC765E00D55595 /* scratchSVCTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C469551FBC765E00D55595 /* scratchSVCTests.swift */; };
+		34C469611FBC78B100D55595 /* MainFlowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C469601FBC78B100D55595 /* MainFlowController.swift */; };
+		34C469631FBC796600D55595 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 34C469621FBC796600D55595 /* Default-568h@2x.png */; };
+		34C469661FBC7B6300D55595 /* DataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C469651FBC7B6300D55595 /* DataLoader.swift */; };
+		34C469681FBC7B9300D55595 /* SampleDataLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34C469671FBC7B9300D55595 /* SampleDataLoader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,6 +34,10 @@
 		34C469511FBC765E00D55595 /* scratchSVCTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = scratchSVCTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		34C469551FBC765E00D55595 /* scratchSVCTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = scratchSVCTests.swift; sourceTree = "<group>"; };
 		34C469571FBC765E00D55595 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34C469601FBC78B100D55595 /* MainFlowController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFlowController.swift; sourceTree = "<group>"; };
+		34C469621FBC796600D55595 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		34C469651FBC7B6300D55595 /* DataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataLoader.swift; sourceTree = "<group>"; };
+		34C469671FBC7B9300D55595 /* SampleDataLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataLoader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,7 @@
 		34C469341FBC765E00D55595 = {
 			isa = PBXGroup;
 			children = (
+				34C469621FBC796600D55595 /* Default-568h@2x.png */,
 				34C4693F1FBC765E00D55595 /* scratchSVC */,
 				34C469541FBC765E00D55595 /* scratchSVCTests */,
 				34C4693E1FBC765E00D55595 /* Products */,
@@ -71,9 +80,11 @@
 		34C4693F1FBC765E00D55595 /* scratchSVC */ = {
 			isa = PBXGroup;
 			children = (
+				34C469641FBC7B4E00D55595 /* model */,
 				34C469401FBC765E00D55595 /* AppDelegate.swift */,
 				34C469471FBC765E00D55595 /* Assets.xcassets */,
 				34C4694C1FBC765E00D55595 /* Info.plist */,
+				34C469601FBC78B100D55595 /* MainFlowController.swift */,
 			);
 			path = scratchSVC;
 			sourceTree = "<group>";
@@ -85,6 +96,15 @@
 				34C469571FBC765E00D55595 /* Info.plist */,
 			);
 			path = scratchSVCTests;
+			sourceTree = "<group>";
+		};
+		34C469641FBC7B4E00D55595 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				34C469651FBC7B6300D55595 /* DataLoader.swift */,
+				34C469671FBC7B9300D55595 /* SampleDataLoader.swift */,
+			);
+			path = model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -171,6 +191,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				34C469481FBC765E00D55595 /* Assets.xcassets in Resources */,
+				34C469631FBC796600D55595 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +209,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34C469681FBC7B9300D55595 /* SampleDataLoader.swift in Sources */,
 				34C469411FBC765E00D55595 /* AppDelegate.swift in Sources */,
+				34C469611FBC78B100D55595 /* MainFlowController.swift in Sources */,
+				34C469661FBC7B6300D55595 /* DataLoader.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
